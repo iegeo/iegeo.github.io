@@ -80,6 +80,6 @@ deploy:
   type: git
   repo: 
         github: ssh://git@23.83.224.171:26829/~/hexo.git
-        vps: https://github.com/iegeo/iegeo.github.io.git
+        vps: git@github.com:iegeo/iegeo.github.io.git
   branch: master
 
