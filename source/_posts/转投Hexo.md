@@ -9,7 +9,7 @@ tags:
 
 ### Hexo简介
 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
-
+<!--more-->
 ### 安装前提
 安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：
 
@@ -47,12 +47,12 @@ $ npm install
 ```bash
 $ hexo server
 ```
-启动服务器。默认情况下，访问网址为： http://localhost:4000
+启动服务器。默认情况下，访问网址为： http://localhost:4000 。
 
 ### 完成后部署
 可执行下列的任何一个命令，让 Hexo 在生成完毕后自动部署网站。
 ```bash
-$ hexo generate --deploy
-$ hexo deploy --generate
+$ hexo g -d
+$ hexo d -g
 ```
 

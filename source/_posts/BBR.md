@@ -4,16 +4,16 @@ date: 2018-03-18 02:02:12
 tags: BBR
 categories: 资料
 ---
-Linux内核4.9以上已经支持TCP BBR了，可以到[这里](http://kernel.ubuntu.com/~kernel-ppa/mainline/)来查看和下载:
+Linux内核4.9以上支持TCP BBR，可以到[这里](http://kernel.ubuntu.com/~kernel-ppa/mainline/)下载:
 
 ### 下载安装包:
  ```shell
- wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9.10/linux-image-4.9.10-040910-generic_4.9.10-040910.201702141931_amd64.deb
+ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/*...*.deb
  ```
-
+<!--more-->
 ### 安装:
 ```
-dpkg -i linux-image-4.9.10-040910-generic_4.9.10-040910.201702141931_amd64.deb
+dpkg -i linux-image*.deb
 ```
 ### 查看卸载旧内核: 
 ```s
